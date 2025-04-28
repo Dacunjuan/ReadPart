@@ -18,8 +18,10 @@ ReadPart 是一個輕量級的內容分享平台，靈感來自 Medium，允許�
 
 以下是 ReadPart 的主要頁面展示：
 
+首頁
 ![首頁](public/images/screenshot/readme_welcome.png)
-![文章頁面](public/images/screenshot/readme_index.png)
+文章列表
+![文章列表](public/images/screenshot/readme_index.png)
 
 ## 安裝與設定
 
