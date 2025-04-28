@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+  --color-primary:#F2F2F2;
+  --color-secondary:#CCC2C2;
+  --color-button:#877474;
+  --font-logo: "Abril Fatface";
+  --font-text: "Adamina";
+}
