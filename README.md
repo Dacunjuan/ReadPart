@@ -1,6 +1,6 @@
 # ReadPart
 
-一個基於 Laravel 打造的內容創作與分享平台，靈感來自 Medium。
+一個基於 Laravel 打造的內容創作與分享平台，靈感來自 Medium。此專案仍在進行中，尚未完成
 
 ## 關於專案
 
