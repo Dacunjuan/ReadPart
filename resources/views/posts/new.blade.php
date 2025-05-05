@@ -3,7 +3,7 @@
     </x-slot>
 
     <div class="py-6 h-auto">
-        <x-post-form id="postForm" :action="route('posts.update', $post->id)" :isEdit="true" :title="$post->title" :content="$post->content" />
+        <x-post-form id="postForm" :action="route('posts.store')" />
     </div>
     <x-slot name="footer">
         <footer class="bg-secondary h-[80px]">

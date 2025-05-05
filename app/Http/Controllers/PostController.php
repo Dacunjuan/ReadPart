@@ -71,7 +71,7 @@ class PostController extends Controller
     public function edit($id=null)
     {
         if($id == null){
-            return view('posts.edit');
+            return view('posts.new');
         }
         $post = Post::findOrFail($id);
         //dd($post->id);

@@ -12,7 +12,7 @@
                         <li class="h-auto border-b mb-1">
                             <div class="h-full flex">
                                 <div class="min-h-full w-3/4 flex flex-col">
-                                    <a href="{{ $post->id }}" class="w-full h-1/2 pt-5">
+                                    <a href="{{ route('posts.show', ['id' => $post->id]) }}" class="w-full h-1/2 pt-5">
                                         <span class="font-text text-[24px] font-bold ">{{ $post->title }}</span>
                                     </a>
                                     <div class="w-full h-1/2 flex flex-row items-center">
@@ -26,7 +26,7 @@
                                             </p>
                                         </div>
                                         <div class="ml-auto flex flex-row">
-                                            <a href="edit/{{ $post->id }}">
+                                            <a href="{{ route('posts.edit.id', $post->id) }}">
                                                 <svg class="w-12 h-12 text-gray-800 dark:text-white" aria-hidden="true"
                                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                     fill="none" viewBox="0 0 24 24">

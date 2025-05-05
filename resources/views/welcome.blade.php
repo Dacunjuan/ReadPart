@@ -28,7 +28,7 @@
         <div class="w-1/2 ps-50 pb-5 h-auto flex justify-center flex-col">
             <p style="font-family:Abril Fatface; font-size:78px;">ReadPart</p>
             <p style="font-family:Adamina; font-size:28px;">Always find some good part to read.</p>
-            <a href="/login"
+            <a href="{{ route('login') }}"
                 class="text-white bg-button hover:bg-blue-800 text-[28px] rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 mt-5 w-40 h-15 cursor-pointer"
                 style="font-family:Adamina;">Start</a>
         </div>

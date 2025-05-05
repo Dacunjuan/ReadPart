@@ -39,6 +39,9 @@
                     {{ __('Forgot your password?') }}
                 </a>-->
             @endif
+            <a href="{{ route('auth.google') }}" class="btn btn-primary">
+                Login with Google
+            </a>
             <x-primary-link href="{{ route('register') }}" class="ms-3">
                 {{ __('Register') }}
             </x-primary-link>
