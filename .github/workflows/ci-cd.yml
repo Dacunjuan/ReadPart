@@ -20,7 +20,8 @@ jobs:
         with:
           php-version: "8.2"
           extensions: mbstring, xml, bcmath, ctype, json, tokenizer, sqlite
-
+      - name: Update Composer
+        run: composer self-update
       # 3. 安裝 Composer 依賴
       - name: Install Dependencies
         run: composer install --no-progress --no-interaction --optimize-autoloader
